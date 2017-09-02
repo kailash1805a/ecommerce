@@ -44,7 +44,6 @@ class LoginPage extends React.Component {
     }
 
     render() {
-        debugger;
         const userDetails = this.props.user;
         if(userDetails != undefined && userDetails.ResponseCode == 200) {
             browserHistory.push("/dashboard");

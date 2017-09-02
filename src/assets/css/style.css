@@ -78,6 +78,10 @@
     margin-top: 10px;
 }
 
+.radio-custom {
+  margin: 4px 5px 8px;
+}
+
 .align-center {
     text-align: center;
 }
@@ -85,7 +89,7 @@
  /* Slide side body*/
   .side-body {
     margin-left: 5px;
-    margin-top: 70px;
+    /*margin-top: 70px;*/
     position: relative;
     -moz-animation: bodyslideout 300ms forwards;
     -o-animation: bodyslideout 300ms forwards;
